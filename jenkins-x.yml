@@ -5,3 +5,12 @@ pipelineConfig:
       build:
         steps:
         - command: echo ==================ONANANAN=======================
+          name: PR MessageBuild
+      postBuild:
+        steps:
+        - command: echo =================postbuild ONANANANA=======================
+          name: PR MessagePostBuild
+      promote:
+        steps:
+        - command: echo =============promote ONANANANANA================
+          name: PR MessagePromote
