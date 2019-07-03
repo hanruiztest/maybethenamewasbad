@@ -14,3 +14,4 @@ pipelineConfig:
         steps:
         - command: echo =============promote ONANANANANA================
           name: PR MessagePromote
+        - command: 'slackSend color: ''good'', message: ''Message from Jenkins Pipeline'''
