@@ -4,4 +4,5 @@ pipelineConfig:
     pullRequest:
       build:
         steps:
-        - command: echo ==================ONANANAN=======================
+        - name: MessagePRBuildPost
+          command: echo ==================ONANANAN=======================
